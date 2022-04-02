@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow:scroll;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.form label{
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+input{
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  padding-left: 15px;
+  border: none;
+  background-color:rgb(238, 238, 238) ;
+  outline-color: rgb(61, 102, 179);
+}
+
+button{
+  height: 40px;
+  margin-top: 15px; 
+  border: none;
+  background-color: rgb(49, 94, 190);
+  border-radius: 20px;
+  transition: 0.2s;
+  color: azure;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(76, 122, 190);
+}
+
+.employees-table{
+  background-color: rgb(238, 238, 238);
+  margin: 30px;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: left;
+  width: 400px;
+  color: rgb(58, 58, 58);
+}
+
+.employees-table td{
+  padding: 5px 0px 5px 0px;
+}
+
+.table-input{
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+}
+
+.edit{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  .App {
+    flex-direction: column;
+  }
+}
