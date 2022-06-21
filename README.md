@@ -1,2 +1,4 @@
 # crud-react
-Crud App with React
+Crud App with React. 
+
+Frontend, Backend, Database
